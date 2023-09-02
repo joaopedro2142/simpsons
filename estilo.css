@@ -1,0 +1,156 @@
+/*seletor{propriedade:valor;}*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+*{margin:0; padding: 0;}
+
+body{
+	background-color: #00BCD4;
+}
+
+header, #img-topo{
+	width: 100%;
+	background-color: #0191A4
+    ;
+}
+
+nav{
+	background-color: #FFEB3B
+    ;
+	padding: 16px;
+	text-align: center;
+}	
+
+
+.menu:link, .menu:visited{	
+	color: #03A9F4;
+	font: 1.2rem 'Poppins', sans-serif;
+	text-decoration: none;
+	font-weight: 700;
+	margin-right: 20px;
+}
+
+.menu:hover, .menu:active{
+	color:#9E9E9E;	
+}
+
+main, #pag-autores, #pag-personagens, #pag-trailer,{
+	padding: 50px;
+}	
+
+h1, h3{
+	text-align: center;
+	color: #9E9E9E;
+	font-family: 'Poppins', cursive;
+	font-size: 3rem;
+	margin-bottom: 20px;	
+}	
+
+p{
+	text-align: justify;
+	color:#607D8B;
+	font: 1.3rem 'Poppins', sans-serif;
+}
+
+h2{
+	color: #2196F3;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 2rem;
+}
+
+#pag-autores{
+	background-color: #0191A4;
+}
+
+#pag-autores h2, #pag-autores p{
+	color: #03A9F4;
+}	
+
+ul{
+	list-style-type: circle;
+	list-style-position inside;
+	margin-left: 50px;
+}
+
+li{
+	color: #F5F5F5;
+	font: 1.3rem 'Poppins', sans-serif;
+	line-height: 2.5rem;
+}	
+
+#pag-personagens{
+	background-color: #FFEB3B;
+}
+
+.container{
+	display: flex;
+	 
+}	
+
+.card{
+	width: 25%;
+	background-color: #03A9F4;
+	border-radius: 14px;
+	margin: 10px;
+	box-shadow: 10px 10px 10px #9E9E9E;
+	transform: 3s;
+}
+
+.card:hover{
+	box-shadow: 10px 10px 10px #777;
+}	
+
+.card img{
+	width: 100%;
+	border-radius: 14px 14px 0 0;
+}	
+
+.card-conteudo{
+	padding: 15px;
+}
+
+h3{
+	font-size: 1.5rem;
+}	
+
+.card-conteudo p{
+	text-align: center;
+	font-size: 1rem;
+}
+
+#pag-trailer{
+	background-color: #FFC107;
+}
+
+.conteudo-trenos .container{
+	justify-content: center;
+	align-itens: center;
+	gap: 10px;
+
+}
+
+.img-contatos{
+	width: 30px;
+}
+
+video{
+	width: 350px;
+	margin: 0 70px;
+}		
+
+footer{
+	background-color: #2196F3
+    ;
+}
+
+
+footer p, footer a{
+	color: #FFF;
+	text-align: center;
+}
+
+footer a{
+	text-decoration: none;
+	font-weight: 700;
+}
+
